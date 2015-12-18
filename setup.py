@@ -10,6 +10,6 @@ setup(name=npm_package['name'],
       author=npm_package['author'],
       author_email='jon.freder@gmail.com',
       url=npm_package['homepage'],
-      packages=['jupyter-lightsaber'],
+      packages=[pm_package['name']],
       include_package_data=True,
      )
